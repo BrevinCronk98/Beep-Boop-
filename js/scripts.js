@@ -1,8 +1,22 @@
-$(document).ready(function(event) {
+$(document).ready(function() {
 
-    $("form#formOne").submit(function(event) {
-        var val1 = parseInt($("#one").val());
-        console.log(val1);
+    $("form#beep").submit(function(event) {
+        var val1 = parseInt($("#boop").val());
         event.preventDefault();
+        var numbers = [val1];
+        console.log(numbers);
+        
+
+        
     });
 });
+//function range(start, val1) {
+          // if (end - start ===2) {
+          // return [start + 1];
+       // } else{
+           // var list = range(start, end -1);
+           // list.push(end-1)
+           // return list;
+       // }
+   // }
+  // console.log (range(1,10));
