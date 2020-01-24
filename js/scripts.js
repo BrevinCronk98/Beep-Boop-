@@ -1,44 +1,35 @@
-$(document).ready(function() {
-
-    $("form#beep").submit(function(event) {
-        var end = parseInt($("#boop").val());
-        var range = []
-        var one = /1/;
-        var two = /2/;
-        var three = /3/;
-;   
-
-        for(var i=0; i <= end; i++){
-            range.push( " "+ i ) 
-            var ranges= i.toString()
-        } if(ranges.match(three)){
-            ranges.push("boop")
+    var three = /3/;
+    var two = /2/;
+    var one = /1/;
+    
+    function rangeGenerator(rng){
+        var range =[];
+        for( var i =0; i<= rng; i++){
+            var str = i.toString();
+            if(str.match(three)){
+            range.push('"Im Sorry  Im afraid I cant do that"');
+            }  else if(str.match(two))  {
+               range.push('"boop"');
+            }   else if(str.match(one)){
+                range.push('"beep"')   
+            }  else{
+              range.push(i)
+            }          
         }
-         
+        var phrase = range.join(", ")
+        return phrase 
+       console.log(phrase)
+    }
+    $(document).ready(function() {
+        $(":reset").click(function() {
+            $("#out").text("");
+          })
+        
+          $("#beep").submit(function(event) {
+            event.preventDefault();
+        
+            var num = parseInt($("#boop").val());
+            $("#out").text(rangeGenerator(num));
+        });
+      }); 
     
-        
-    
-        $("#out").text(range);
-        console.log(range);
-        console.log(ranges);
-        event.preventDefault()
-
-        
-        
-
-        
-    });
-});
-
-
-
-//function range(start, val1) {
-          // if (end - start ===2) {
-          // return [start + 1];
-       // } else{
-           // var list = range(start, end -1);
-           // list.push(end-1)
-           // return list;
-       // }
-   // }
-  // console.log (range(1,10));
