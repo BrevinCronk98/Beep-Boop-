@@ -1,0 +1,26 @@
+#btn {
+    background-color: aqua;
+    border-radius: 15px;
+    font-family: cursive;
+    margin: 25px;
+  
+    
+}
+
+#btn2 {
+    background-color: deeppink;
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+.jumbotron{
+  background-color: gray;
+  border-radius: 35px;
+}
+#lbl {
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}

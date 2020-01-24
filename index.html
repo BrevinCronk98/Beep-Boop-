@@ -5,22 +5,32 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/jquery-3.4.1.js"></script>
     <script src="./js/scripts.js"></script>
-    <script type="text/javascript">
+ 
   
     </script>
     <title>Document</title>
 </head>
 <body>
-    <form id="beep">
-        <div class="form-group">
-            <label for="number">Put in a number</label>
+    <div class="jumbotron">
+        <h1>Beep Boop Numbers</h1>
+        <p>Type in a number and see what happens..I dare you dave</p>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+        <form id="beep">
+          <div class="form-group mb-5" >
+             <center><label  for="number">Put in a number</label></center>
             <input id="boop" class="form-control" type="text" >
-        </div>
-        <br>
-        <button type="submit" id="btn"> submit </button>
-        <button type="reset" id="btn2"> Reset</button>
-    </form>
+         </div>
+            <br>
+            <center>
+            <button type="submit" id="btn"> submit </button>
+            <button type="reset" id="btn2"> Reset</button>
+            </center>
+        </form>
+    </div>    
     <div id="out"></div>
+</div>
 
     
 </body>
