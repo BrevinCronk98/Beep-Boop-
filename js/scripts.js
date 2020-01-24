@@ -1,15 +1,35 @@
 $(document).ready(function() {
 
     $("form#beep").submit(function(event) {
-        var val1 = parseInt($("#boop").val());
-        event.preventDefault();
-        var numbers = [val1];
-        console.log(numbers);
+        var end = parseInt($("#boop").val());
+        var range = []
+        var one = /1/;
+        var two = /2/;
+        var three = /3/;
+;   
+
+        for(var i=0; i <= end; i+= 1){
+            range.push( " "+ i ) 
+            var ranges= range.toString()
+        } 
+         
+    
+        
+    
+        $("#out").text(range);
+        console.log(range);
+        console.log(ranges);
+        event.preventDefault()
+
+        
         
 
         
     });
 });
+
+
+
 //function range(start, val1) {
           // if (end - start ===2) {
           // return [start + 1];
