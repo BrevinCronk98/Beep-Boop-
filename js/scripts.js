@@ -8,10 +8,12 @@ $(document).ready(function() {
         var three = /3/;
 ;   
 
-        for(var i=0; i <= end; i+= 1){
+        for(var i=0; i <= end; i++){
             range.push( " "+ i ) 
-            var ranges= range.toString()
-        } 
+            var ranges= i.toString()
+        } if(ranges.match(three)){
+            ranges.push("boop")
+        }
          
     
         
