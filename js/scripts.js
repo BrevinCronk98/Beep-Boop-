@@ -7,13 +7,14 @@
         for( var i =0; i<= rng; i++){
             var str = i.toString();
             if(str.match(three)){
-            range.push('"Im Sorry  Im afraid I cant do that"');
+            range.push('"Im Sorry Dave, Im afraid I cant do that"');
             }  else if(str.match(two))  {
                range.push('"boop"');
             }   else if(str.match(one)){
                 range.push('"beep"')   
             }  else{
               range.push(i)
+              $("#out").show();
             }          
         }
         var phrase = range.join(", ")
@@ -23,6 +24,7 @@
     $(document).ready(function() {
         $(":reset").click(function() {
             $("#out").text("");
+            $("#out").hide();
           })
         
           $("#beep").submit(function(event) {
