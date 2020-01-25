@@ -1,5 +1,6 @@
 ## Specificatios
-
+<details>
+   <summary> Click to See Specs</summary>
 * #### Spec: The program returns a rand of numbers from 0 to the users inputed number
     * #### Inputs:  "4"
     * #### Output: "0,1,2,3,4"
