@@ -10,7 +10,7 @@
 ## Description
 #### The Beep Boop program takes an integer and dispalys it in a range. Let say you input 5, the output would be 0,1,2,3,4,5. After it creates a range of numbers. It replaces some with the words "Boop", "Beep, and the phrase " Im sorry Dave, Im afraid I cant do that".
 
-## Specificatios
+## Specifications
 <details>
    <summary> Click to See Specs</summary>
 * #### Spec: The program returns a rand of numbers from 0 to the users inputed number
