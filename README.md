@@ -1,3 +1,21 @@
+# Beep Boop Program
+
+### Made By Brevin Cronk
+
+
+## Setup Instructions
+### The page is not hosted on a live domain so if you wish to use my program, download a clone of this code.
+
+
+
+
+
+
+
+
+
+
+
 ## Specificatios
 <details>
    <summary> Click to See Specs</summary>
