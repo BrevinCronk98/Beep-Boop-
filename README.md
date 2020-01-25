@@ -4,17 +4,11 @@
 
 
 ## Setup Instructions
-### The page is not hosted on a live domain so if you wish to use my program, download a clone of this code.
+#### You can access my program via GH-Pages. The URL is https://brevincronk98.github.io/Beep-Boop-/
+#### If you would like to, you can also download my code into a zip file.
 
-
-
-
-
-
-
-
-
-
+## Description
+#### The Beep Boop program takes an integer and dispalys it in a range. Let say you input 5, the output would be 0,1,2,3,4,5. After it creates a range of numbers. It replaces some with the words "Boop", "Beep, and the phrase " Im sorry Dave, Im afraid I cant do that".
 
 ## Specificatios
 <details>
@@ -41,3 +35,8 @@
 * #### Spec: The number 21 should be replaced with "Boop".
     * #### Input: "32"
     * #### Output: "Im Sorry Dave..."
+</details>
+
+## Copyright (c) 2020 Brevin Cronk
+    
+   
